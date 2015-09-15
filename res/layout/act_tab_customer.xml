@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bj"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        style="@style/layout.Xy"
+        android:background="@drawable/ic_top" >
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            style="@style/layout.xy"
+            android:layout_gravity="center_vertical|left"
+            android:background="@null"
+            android:src="@drawable/sel_header_btn_back" />
+
+        <Button
+            android:id="@+id/btnHeaderCenter"
+            style="@style/layout.xy"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_top_anniu"
+            android:gravity="center"
+            android:text="查询客户信息◢"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/header_title" />
+
+        <ImageButton
+            android:id="@+id/btnHeaderRight"
+            style="@style/layout.xy"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/transparent"
+            android:src="@drawable/sel_btn_query"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        style="@style/layout.XY" >
+    </FrameLayout>
+
+</LinearLayout>

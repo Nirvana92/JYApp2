@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout.XY"
+    android:orientation="vertical"
+    android:background="#ccffffff"
+    android:padding="10dp" >
+
+    <LinearLayout style="@style/layout.Xy"
+        		  
+        		  android:orientation="horizontal">
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:layout_weight="1"
+            		  android:orientation="vertical">
+            
+            <LinearLayout style="@style/layout.Xy"
+                		  android:orientation="horizontal"
+                		  android:layout_marginBottom="2dp">
+                 <TextView style="@style/layout.xy"
+                	  	   android:text="流水号："
+                	  	   android:textSize="15sp"
+                	  	   android:minWidth="85dp" />
+            
+           		 <TextView android:id="@+id/tvOrder"
+           		     style="@style/layout.xy"
+                	  android:textSize="15sp" />
+            </LinearLayout>
+            
+            <LinearLayout style="@style/layout.Xy"
+                		  android:orientation="horizontal">
+                 <TextView style="@style/layout.xy"
+                	  android:text="提油日期："
+                	  android:textSize="15sp"
+                	  android:minWidth="85dp" />
+            
+           		 <TextView android:id="@+id/tvDate"
+           		     style="@style/layout.xy"
+                	  android:textSize="15sp" />
+            </LinearLayout>
+           
+            
+        </LinearLayout>
+        
+        <ImageView android:id="@+id/imgArrow"
+            	   style="@style/layout.xy"
+            	   android:src="@drawable/sel_list_arrow"
+            	   android:layout_gravity="center_vertical" />
+        
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/listSecondView"
+        		  style="@style/layout.Xy"
+        		  android:orientation="vertical"
+        		  android:layout_marginTop="2dp">
+        
+         <LinearLayout style="@style/layout.Xy"
+                		  android:orientation="horizontal"
+                		  android:layout_marginBottom="2dp">
+                 <TextView style="@style/layout.xy"
+                	  android:text="提油网点："
+                	  android:textSize="15sp"
+                	  android:minWidth="85dp" />
+            
+           		 <TextView android:id="@+id/tvAddress" 
+           		     	style="@style/layout.xy"
+                	  android:textSize="15sp" />
+            </LinearLayout>
+            
+            <LinearLayout style="@style/layout.Xy"
+                		  android:orientation="horizontal"
+                		   android:layout_marginBottom="2dp">
+                 <TextView 
+                     style="@style/layout.xy"
+                	  android:text="提油量（升）："
+                	  android:textSize="15sp"
+                	  android:minWidth="85dp" />
+            
+           		 <TextView android:id="@+id/tvTiyouliang" 
+           		     style="@style/layout.xy"
+                	  android:textSize="15sp" />
+            </LinearLayout>
+        
+             <LinearLayout style="@style/layout.Xy"
+                		  android:orientation="horizontal">
+                 <TextView style="@style/layout.xy"
+                	  android:text="账户余额："
+                	  android:textSize="15sp"
+                	  android:minWidth="85dp" />
+            
+           		 <TextView android:id="@+id/tvYuer" 
+           		     style="@style/layout.xy"
+                	  android:textSize="15sp" 
+                	  />
+            </LinearLayout>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

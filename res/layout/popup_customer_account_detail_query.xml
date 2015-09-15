@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/popupWrapper" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout.XY"
+    android:background="@drawable/transparent" >
+
+    <LinearLayout android:id="@+id/popupContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/layout.Xy"
+            android:background="@drawable/sel_perference_black_top"
+            android:drawableLeft="@drawable/ic_sousuo"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:text="账户明细查询"
+            android:textColor="#7bcafc"
+            android:drawablePadding="5dp"
+            android:textSize="15sp" />
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:gravity="center_vertical"
+            		  android:background="@drawable/sel_perference_black_middle"
+            		  android:orientation="horizontal"
+            		  android:paddingLeft="10dp"
+            		  android:paddingRight="10dp"
+            		  >
+            
+            <TextView style="@style/layout.xy"
+                	  android:text="卡号/账号："
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"/>
+            
+            <EditText style="@style/layout.XY"
+                	  android:layout_marginLeft="10dp"
+                	  android:gravity="center_vertical"
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"
+                	  android:singleLine="true"
+                	  android:imeOptions="actionNext"
+                	  android:background="@drawable/transparent"
+                		 />
+            
+        </LinearLayout>
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:gravity="center_vertical"
+            		  android:background="@drawable/sel_perference_black_middle"
+            		  android:orientation="horizontal"
+            		   android:paddingLeft="10dp"
+            		  android:paddingRight="10dp"
+            		  >
+            
+            <TextView style="@style/layout.xy"
+                	  android:text="开始日期："
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"/>
+            
+            <EditText style="@style/layout.XY"
+                	  android:layout_marginLeft="10dp"
+                	  android:gravity="center_vertical"
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"
+                	  android:singleLine="true"
+                	  android:imeOptions="actionDone"
+                	  android:background="@drawable/transparent"
+                		 />
+            
+        </LinearLayout>
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:gravity="center_vertical"
+            		  android:background="@drawable/sel_perference_black_middle"
+            		  android:orientation="horizontal"
+            		   android:paddingLeft="10dp"
+            		  android:paddingRight="10dp"
+            		  >
+            
+            <TextView style="@style/layout.xy"
+                	  android:text="结束日期："
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"/>
+            
+            <EditText style="@style/layout.XY"
+                	  android:layout_marginLeft="10dp"
+                	  android:gravity="center_vertical"
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"
+                	  android:singleLine="true"
+                	  android:imeOptions="actionDone"
+                	  android:background="@drawable/transparent"
+                		 />
+            
+        </LinearLayout>
+        
+        <Button 	android:id="@+id/btnQuery"
+            		style="@style/layout.Xy"
+                	android:background="@drawable/sel_perference_black_bottom"
+                	android:textColor="#fb7855"
+                	android:textSize="15sp"
+                	android:gravity="center"
+                	android:text="开始查询"
+                	  />
+
+    </LinearLayout>
+
+</FrameLayout>

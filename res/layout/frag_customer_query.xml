@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout style="@style/layout.Xy"
+        		  android:padding="10dp"
+        		  android:orientation="horizontal">
+        
+        <EditText style="@style/layout.Xy"
+                  android:layout_weight="1"
+                  android:minHeight="0dp"
+            	  android:background="@drawable/ic_sosuokuang"
+            	  android:drawableLeft="@drawable/ic_sosuokuang_ic" 
+            	  android:paddingLeft="15dp"
+            	  android:drawablePadding="7dp"
+            	  android:gravity="center_vertical"
+            	  android:textColor="#ffffff"
+            	  android:textColorHint="#ffffff"
+            	  android:hint="输入查询条件..."
+            	  android:textSize="15sp"
+            	  android:focusableInTouchMode="true" />
+        
+      
+        <Button style="@style/layout.xy"
+                android:layout_marginLeft="10dp"
+                android:text="查询"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:background="@drawable/sel_btn_blue" />
+        
+    </LinearLayout>
+    
+    <ListView  android:id="@+id/lv"
+        	   style="@style/layout.XY"
+        	   android:cacheColorHint="@drawable/transparent"
+        	   android:listSelector="@drawable/transparent"></ListView>
+
+</LinearLayout>

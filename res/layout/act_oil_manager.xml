@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bj" >
+
+    
+    <FrameLayout style="@style/layout.Xy"
+        	     android:background="@drawable/ic_top">
+        
+        <ImageButton android:id="@+id/btnBack"
+            	     style="@style/layout.xy"
+            	     android:src="@drawable/sel_header_btn_back"
+            	     android:background="@null"
+            	     android:layout_gravity="center_vertical|left" />
+        
+        <TextView style="@style/layout.xy"
+            	  android:layout_gravity="center"
+            	  android:textSize="@dimen/header_title"
+            	  android:textColor="#ffffff" 
+            	  android:text="油品管理" />
+        
+        <ImageButton android:id="@+id/btnQuery"
+            		 style="@style/layout.xy"
+            		 android:src="@drawable/sel_btn_query"
+            		 android:background="@null"
+            		 android:layout_gravity="right|center_vertical" />
+         
+    </FrameLayout>
+    
+    <LinearLayout style="@style/layout.Xy"
+        		  android:padding="10dp"
+        		  android:background="#ccffffff">
+        
+        <TextView style="@style/layout.Xy"
+            	  android:layout_weight="1"
+            	  android:textColor="#0671b4"
+            	  android:textSize="20sp"
+            	  android:gravity="center"
+            	  android:text="油品代码" />
+         <TextView style="@style/layout.Xy"
+            	  android:layout_weight="1"
+            	  android:textColor="#0671b4"
+            	  android:textSize="20sp"
+            	  android:gravity="center"
+            	  android:text="油价" />
+          <TextView style="@style/layout.Xy"
+            	  android:layout_weight="1"
+            	  android:textColor="#0671b4"
+            	  android:textSize="20sp"
+            	  android:gravity="center"
+            	  android:text="日期" />
+        
+    </LinearLayout>
+    
+    <ListView android:id="@+id/lv"
+        	  style="@style/layout.XY"
+        	
+        	  android:cacheColorHint="@drawable/transparent"
+        	  android:listSelector="@drawable/transparent">
+        
+    </ListView>
+    
+
+</LinearLayout>

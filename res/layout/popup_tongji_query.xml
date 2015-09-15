@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/popupWrapper" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout.XY"
+    android:background="@drawable/transparent" >
+
+    <LinearLayout android:id="@+id/popupContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <RadioGroup android:id="@+id/tvPopupTitle"
+            style="@style/layout.Xy"
+            android:orientation="horizontal"
+            android:background="@drawable/sel_perference_black_top"
+            
+            android:gravity="center_vertical"
+            android:drawablePadding="5dp"
+            android:textSize="15sp">
+            
+            <RadioButton style="@style/layout.Xy"
+                		 android:layout_weight="1"
+                		 android:text="按省统计"
+                		 android:textColor="#7bcafc"
+                		 android:button="@drawable/sel_radio_button"
+                		 android:drawablePadding="10dp"
+                		 android:paddingLeft="20dp"
+                		  />
+            <RadioButton style="@style/layout.Xy"
+                		 android:layout_weight="1"
+                		 android:text="按区统计"
+                		 android:textColor="#7bcafc"
+                		 android:button="@drawable/sel_radio_button"
+                		 android:drawablePadding="10dp"
+                		 android:paddingLeft="20dp" />
+            <RadioButton style="@style/layout.Xy"
+                		 android:layout_weight="1"
+                		 android:text="按市统计"
+                		 android:textColor="#7bcafc"
+                		 android:button="@drawable/sel_radio_button"
+                		 android:drawablePadding="10dp"
+                		 android:paddingLeft="20dp" />
+            
+        </RadioGroup>
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:gravity="center_vertical"
+            		  android:background="@drawable/sel_perference_black_middle"
+            		  android:orientation="horizontal"
+            		  android:paddingLeft="10dp"
+            		  android:paddingRight="10dp"
+            		  >
+            
+            <TextView style="@style/layout.xy"
+                	  android:text="省/自治区/直辖市："
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"/>
+            
+            <EditText android:id="@+id/tvCity"
+                	  style="@style/layout.XY"
+                	  android:layout_marginLeft="10dp"
+                	  android:gravity="center_vertical"
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"
+                	  android:singleLine="true"
+                	  android:imeOptions="actionNext"
+                	  android:background="@drawable/transparent"
+                		 />
+            
+        </LinearLayout>
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:gravity="center_vertical"
+            		  android:background="@drawable/sel_perference_black_middle"
+            		  android:orientation="horizontal"
+            		  android:paddingLeft="10dp"
+            		  android:paddingRight="10dp"
+            		  >
+            
+            <TextView style="@style/layout.xy"
+                	  android:text="市/自治区："
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"/>
+            
+            <EditText android:id="@+id/tvCity1"
+                	  style="@style/layout.XY"
+                	  android:layout_marginLeft="10dp"
+                	  android:gravity="center_vertical"
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"
+                	  android:singleLine="true"
+                	  android:imeOptions="actionNext"
+                	  android:background="@drawable/transparent"
+                		 />
+            
+        </LinearLayout>
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:gravity="center_vertical"
+            		  android:background="@drawable/sel_perference_black_middle"
+            		  android:orientation="horizontal"
+            		  android:paddingLeft="10dp"
+            		  android:paddingRight="10dp"
+            		  >
+            
+            <TextView style="@style/layout.xy"
+                	  android:text="县/市/区："
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"/>
+            
+            <EditText android:id="@+id/tvCity2"
+                	  style="@style/layout.XY"
+                	  android:layout_marginLeft="10dp"
+                	  android:gravity="center_vertical"
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"
+                	  android:singleLine="true"
+                	  android:imeOptions="actionNext"
+                	  android:background="@drawable/transparent"
+                		 />
+            
+        </LinearLayout>
+        
+        
+        
+      
+        
+        
+        <Button 	android:id="@+id/btnQuery"
+            		style="@style/layout.Xy"
+                	android:background="@drawable/sel_perference_black_bottom"
+                	android:textColor="#fb7855"
+                	android:textSize="15sp"
+                	android:gravity="center"
+                	android:text="开始统计"
+                	  />
+
+    </LinearLayout>
+
+</FrameLayout>

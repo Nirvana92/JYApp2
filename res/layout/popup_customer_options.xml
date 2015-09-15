@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/layout.xy"
+        android:background="@drawable/sel_perference_blue_top"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="查询客户信息"
+        android:textColor="@color/sel_perference_blue_text"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <TextView
+        style="@style/layout.xy"
+        android:background="@drawable/sel_perference_blue_middle"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="充值储油"
+        android:textColor="@color/sel_perference_blue_text"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <TextView
+        style="@style/layout.xy"
+        android:background="@drawable/sel_perference_blue_top"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="账户明细管理"
+        android:textColor="@color/sel_perference_blue_text"
+        android:textSize="15sp" />
+
+    <TextView
+        style="@style/layout.xy"
+        android:background="@drawable/sel_perference_blue_middle"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="客户账户管理"
+        android:textColor="@color/sel_perference_blue_text"
+        android:textSize="15sp" />
+
+    <TextView
+        style="@style/layout.xy"
+        android:background="@drawable/sel_perference_blue_middle"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="主附卡绑定"
+        android:textColor="@color/sel_perference_blue_text"
+        android:textSize="15sp" />
+
+    <TextView
+        style="@style/layout.xy"
+        android:background="@drawable/sel_perference_blue_bottom"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="子卡转入与转出"
+        android:textColor="@color/sel_perference_blue_text"
+        android:textSize="15sp" />
+
+</LinearLayout>

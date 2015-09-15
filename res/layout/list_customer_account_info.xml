@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout style="@style/layout.Xy"
+        		  android:padding="10dp"
+        		  android:background="#ccffffff"
+        		  android:orientation="vertical"
+        		  android:gravity="center_vertical">
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:layout_marginBottom="2dp"
+            	      android:orientation="horizontal">
+            
+            <TextView style="@style/layout.xy"
+                  android:layout_marginRight="10dp"
+            	  android:text="账户卡号:"
+            	  android:textColor="#000000"
+            	  android:textSize="15sp"
+            	  android:minWidth="80dp" />
+            <TextView android:id="@+id/tvAccountID"
+                	  style="@style/layout.xy"
+                  	  android:textColor="#000000"
+            	  	  android:textSize="15sp"
+            	  />
+            
+        </LinearLayout>
+        
+         <LinearLayout style="@style/layout.Xy"
+             	      android:layout_marginTop="2dp"
+            	      android:orientation="horizontal">
+            
+            <TextView style="@style/layout.xy"
+                  android:layout_marginRight="10dp"
+            	  android:text="余额:"
+            	  android:textColor="#000000"
+            	  android:textSize="15sp"
+            	  android:minWidth="80dp" />
+            
+            <TextView android:id="@+id/tvAccountMoney"
+                	  style="@style/layout.xy"
+                  	  android:textColor="#000000"
+            	  	  android:textSize="15sp"
+            	  />
+            
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    <com.hf.energy.widget.DuplicateParentStateAwareLinearLayout
+        		  android:id="@+id/listSecondView"
+        		  style="@style/layout.Xy"
+        		  android:orientation="horizontal"
+        		  android:gravity="center"
+        		  android:background="@drawable/ic_x_bj"
+        		  android:visibility="gone"
+        		  >
+        
+        <Button style="@style/layout.xY"
+            	android:paddingTop="5dp"
+            	android:paddingBottom="2dp"
+            	android:drawablePadding="3dp"
+            	android:gravity="center_horizontal"
+                android:drawableTop="@drawable/ic_x_dongjier"
+                android:background="@drawable/sel_btn_customer_account_list_option"
+                android:text="冻结"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:focusable="false" />
+        
+        <Button style="@style/layout.xY"
+            	android:paddingTop="5dp"
+            	android:paddingBottom="2dp"
+            	android:drawablePadding="3dp"
+            	android:gravity="center_horizontal"
+                android:drawableTop="@drawable/ic_x_guashi"
+                android:background="@drawable/sel_btn_customer_account_list_option"
+                android:text="挂失"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:focusable="false" />
+        
+        <Button style="@style/layout.xY"
+            	android:paddingTop="5dp"
+            	android:paddingBottom="2dp"
+            	android:drawablePadding="3dp"
+            	android:gravity="center_horizontal"
+                android:drawableTop="@drawable/ic_x_buka"
+                android:background="@drawable/sel_btn_customer_account_list_option"
+                android:text="补卡"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp" 
+                android:focusable="false" />
+        
+    </com.hf.energy.widget.DuplicateParentStateAwareLinearLayout>
+
+</LinearLayout>

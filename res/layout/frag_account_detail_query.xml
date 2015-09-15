@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout android:id="@+id/tabHeaderContainer"
+        		  style="@style/layout.Xy"
+        		  android:orientation="horizontal"
+        		  android:gravity="center"
+        		  android:layout_marginTop="10dp">
+        
+        <Button 
+            	style="@style/layout.xy"
+            	android:layout_marginRight="10dp"
+            	android:textColor="@color/sel_btn_account_detail_tab_item"
+            	android:text="储油记录"
+            	android:textSize="18sp"
+            	android:background="@drawable/sel_btn_account_detail_tab_item" />
+        
+        <Button style="@style/layout.xy"
+            	android:layout_marginLeft="10dp"
+            	android:textColor="@color/sel_btn_account_detail_tab_item"
+            	android:text="提油记录"
+            	android:textSize="18sp"
+            	android:background="@drawable/sel_btn_account_detail_tab_item" />
+        
+    </LinearLayout>
+    
+    <com.hf.energy.widget.HackyViewPager android:id="@+id/pager"
+        								 style="@style/layout.XY"
+        								 android:layout_marginTop="10dp"
+        								 />
+    
+
+</LinearLayout>

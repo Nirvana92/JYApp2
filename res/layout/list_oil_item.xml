@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout.XY"
+    android:orientation="horizontal"
+    android:background="#ccffffff"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp" >
+
+    <TextView     android:id="@+id/tvOilId"
+        		  style="@style/layout.Xy"
+            	  android:layout_weight="1"
+            	  android:textColor="#000000"
+            	  android:textSize="16sp"
+            	  android:gravity="left"
+            	  android:layout_marginLeft="15dp"
+            	  />
+    <TextView     android:id="@+id/tvOilPrice"
+        		  style="@style/layout.Xy"
+            	  android:layout_weight="1"
+            	  android:textColor="#000000"
+            	  android:textSize="16sp"
+            	  android:gravity="center"
+            	 />
+    
+    <TextView     android:id="@+id/tvOilDate"
+        		  style="@style/layout.Xy"
+            	  android:layout_weight="1"
+            	  android:textColor="#000000"
+            	  android:textSize="16sp"
+            	  android:gravity="center"
+            	   />
+    
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout.XY"
+    android:orientation="vertical"
+    android:background="#ccffffff"
+    android:padding="10dp" >
+
+    <LinearLayout style="@style/layout.Xy"
+        		  android:gravity="center_vertical"
+        		  android:orientation="horizontal">
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:layout_weight="1"
+            		  android:orientation="vertical"
+            		  android:gravity="center_vertical">
+            
+            <LinearLayout style="@style/layout.Xy"
+                		  android:orientation="horizontal"
+                		  android:layout_marginBottom="4dp">
+                 <TextView 
+                     	   style="@style/layout.xy"
+                	  	   android:text="子卡号："
+                	  	   android:textSize="15sp"
+                	  	   android:minWidth="85dp" />
+            
+           		 <TextView android:id="@+id/tvCardId"
+           		     style="@style/layout.xy"
+                	  android:textSize="15sp" />
+            </LinearLayout>
+            
+           
+           
+            
+        </LinearLayout>
+        
+         <Button android:id="@+id/btnTransferIn" 
+             	style="@style/layout.xy"
+            	android:background="@drawable/sel_btn_orange_small"
+            	android:textColor="#ffffff"
+            	android:textSize="15sp"
+            	android:layout_gravity="center_vertical"
+            	android:text="转入"
+            	android:minWidth="0dp"
+            	android:minHeight="0dp"
+            	android:focusable="false"
+            	android:layout_marginLeft="5dp"
+            	 />
+         
+         <Button android:id="@+id/btnTransferOut" 
+             	style="@style/layout.xy"
+            	android:background="@drawable/sel_btn_green_small"
+            	android:textColor="#ffffff"
+            	android:textSize="15sp"
+            	android:layout_gravity="center_vertical"
+            	android:text="转出"
+            	android:minWidth="0dp"
+            	android:minHeight="0dp"
+            	android:focusable="false"
+            	android:layout_marginLeft="5dp"
+            	 />
+        
+        <ImageView android:id="@+id/imgArrow"
+            	   android:layout_marginLeft="5dp"
+            	   style="@style/layout.xy"
+            	   android:src="@drawable/sel_list_arrow"
+            	   android:layout_gravity="center_vertical" />
+        
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/listSecondView"
+        		  style="@style/layout.Xy"
+        		  android:orientation="vertical"
+        		  android:layout_marginTop="4dp">
+         <LinearLayout style="@style/layout.Xy"
+                		  android:orientation="horizontal"
+                		  android:layout_marginBottom="4dp">
+                 <TextView 
+                     style="@style/layout.xy"
+                	  android:text="卡主姓名："
+                	  android:textSize="15sp"
+                	  android:minWidth="85dp" />
+            
+           		 <TextView android:id="@+id/tvUserName"
+           		     style="@style/layout.xy"
+                	  android:textSize="15sp" />
+            </LinearLayout>
+          <LinearLayout style="@style/layout.Xy"
+                		  android:orientation="horizontal"
+                		  android:layout_marginBottom="4dp">
+                 <TextView 
+                     style="@style/layout.xy"
+                	  android:text="身份证号："
+                	  android:textSize="15sp"
+                	  android:minWidth="85dp" />
+            
+           		 <TextView  android:id="@+id/tvUserID"
+           		     style="@style/layout.xy"
+                	  android:textSize="15sp" />
+            </LinearLayout>
+            
+          <LinearLayout style="@style/layout.Xy"
+                		  android:orientation="horizontal"
+                		  android:layout_marginBottom="4dp">
+                 <TextView 
+                     style="@style/layout.xy"
+                	  android:text="剩余资金："
+                	  android:textSize="15sp"
+                	  android:minWidth="85dp" />
+            
+           		 <TextView  android:id="@+id/tvMoney"
+           		     style="@style/layout.xy"
+                	  android:textSize="15sp" />
+            </LinearLayout>
+            
+            <LinearLayout style="@style/layout.Xy"
+                		  android:orientation="horizontal"
+                		   android:layout_marginBottom="4dp">
+                 <TextView 
+                     style="@style/layout.xy"
+                	  android:text="车牌号："
+                	  android:textSize="15sp"
+                	  android:minWidth="85dp" />
+            
+           		 <TextView android:id="@+id/tvCarId" 
+           		     style="@style/layout.xy"
+                	  android:textSize="15sp" />
+            </LinearLayout>
+    </LinearLayout>
+    
+
+</LinearLayout>

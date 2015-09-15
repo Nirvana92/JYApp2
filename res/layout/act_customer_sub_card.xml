@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bj" >
+    
+     <FrameLayout style="@style/layout.Xy"
+        	     android:background="@drawable/ic_top">
+        
+        <ImageButton android:id="@+id/btnBack"
+            	     style="@style/layout.xy"
+            	     android:src="@drawable/sel_header_btn_back"
+            	     android:background="@null"
+            	     android:layout_gravity="center_vertical|left" />
+        
+        <TextView style="@style/layout.xy"
+            	  android:layout_gravity="center"
+            	  android:textSize="@dimen/header_title"
+            	  android:textColor="#ffffff" 
+            	  android:text="主附卡绑定" />
+        
+    </FrameLayout>
+    
+    <ListView android:id="@+id/lv"
+        	  style="@style/layout.XY"
+        	  android:padding="10dp"
+        	  android:cacheColorHint="@drawable/transparent"
+        	  android:listSelector="@drawable/transparent"></ListView>
+
+</LinearLayout>

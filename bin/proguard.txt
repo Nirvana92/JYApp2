@@ -1,0 +1,36 @@
+# view res/layout/list_customer_query_info.xml #generated:13
+-keep class android.support.v7.widget.GridLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.hf.energy.CustomerSubCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.hf.energy.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.hf.energy.MainTabActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.hf.energy.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.hf.energy.TabChargeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.hf.energy.TabDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.hf.energy.TabKehuManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.hf.energy.TabTongjiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.hf.energy.TabYoupingManagerActivity { <init>(...); }
+
+# view res/layout/list_customer_account_info.xml #generated:53
+-keep class com.hf.energy.widget.DuplicateParentStateAwareLinearLayout { <init>(...); }
+
+# view res/layout/frag_account_detail_query.xml #generated:30
+-keep class com.hf.energy.widget.HackyViewPager { <init>(...); }
+

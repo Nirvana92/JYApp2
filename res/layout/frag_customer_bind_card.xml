@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    	   style="@style/layout.XY">
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bj" >
+
+    <LinearLayout style="@style/layout.Xy"
+        		  android:orientation="horizontal"
+        		  android:padding="10dp"
+        		  android:gravity="center_vertical">
+        
+        <ImageView style="@style/layout.xy"
+            	   android:src="@drawable/ic_k_zhuka"/>
+        
+        <TextView style="@style/layout.Xy"
+            	  android:layout_weight="1"
+            	  android:layout_marginLeft="10dp"
+            	  android:textColor="#0671b4"
+            	  android:textSize="17sp"
+            	  android:text="主卡信息"/>
+        
+        <Button style="@style/layout.xy"
+            	android:layout_marginLeft="5dp"
+            	android:textColor="#ffffff"
+            	android:background="@drawable/sel_btn_orange"
+            	android:text="读卡" />
+        
+    </LinearLayout>
+    
+     <LinearLayout style="@style/layout.Xy"
+        		  android:background="@drawable/sel_perference_white_top"
+        		  android:gravity="center_vertical"
+        		  android:orientation="horizontal"
+        		  android:paddingLeft="10dp"
+        		  android:paddingRight="10dp"
+        		  >
+        
+        <TextView style="@style/layout.xy"
+            	  android:textSize="15sp"
+            	  android:textColor="#000000"
+            	  android:text="油卡号：" />
+        
+        <EditText style="@style/layout.XY"
+            	  android:gravity="center_vertical"
+            	  android:layout_marginLeft="10dp"
+            	  android:textColor="#000000"
+            	  android:background="@null"
+            	  android:text="123456789" />
+        
+        
+    </LinearLayout>
+    
+     <LinearLayout style="@style/layout.Xy"
+        		  android:background="@drawable/sel_perference_white_middle"
+        		  android:gravity="center_vertical"
+        		  android:orientation="horizontal"
+        		  android:paddingLeft="10dp"
+        		  android:paddingRight="10dp"
+        		  >
+        
+        <TextView style="@style/layout.xy"
+            	  android:textSize="15sp"
+            	  android:textColor="#000000"
+            	  android:text="序列号：" />
+        
+        <EditText style="@style/layout.XY"
+            	  android:gravity="center_vertical"
+            	  android:layout_marginLeft="10dp"
+            	  android:textColor="#000000"
+            	  android:background="@null"
+            	   />
+        
+        
+    </LinearLayout>
+    
+      <LinearLayout style="@style/layout.Xy"
+        		  android:background="@drawable/sel_perference_white_middle"
+        		  android:gravity="center_vertical"
+        		  android:orientation="horizontal"
+        		  android:paddingLeft="10dp"
+        		  android:paddingRight="10dp"
+        		  >
+        
+        <TextView style="@style/layout.xy"
+            	  android:textSize="15sp"
+            	  android:textColor="#000000"
+            	  android:text="客户姓名：" />
+        
+        <EditText style="@style/layout.XY"
+            	  android:gravity="center_vertical"
+            	  android:layout_marginLeft="10dp"
+            	  android:textColor="#000000"
+            	  android:background="@null"
+            	   />
+        
+        
+    </LinearLayout>
+     <LinearLayout style="@style/layout.Xy"
+        		  android:background="@drawable/sel_perference_white_bottom"
+        		  android:gravity="center_vertical"
+        		  android:orientation="horizontal"
+        		  android:paddingLeft="10dp"
+        		  android:paddingRight="10dp"
+        		  >
+        
+        <TextView style="@style/layout.xy"
+            	  android:textSize="15sp"
+            	  android:textColor="#000000"
+            	  android:text="身份证号：" />
+        
+        <EditText style="@style/layout.XY"
+            	  android:gravity="center_vertical"
+            	  android:layout_marginLeft="10dp"
+            	  android:textColor="#000000"
+            	  android:background="@null"
+            	   />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout style="@style/layout.Xy"
+        		  android:orientation="horizontal"
+        		  android:padding="10dp"
+        		  android:gravity="center_vertical">
+        
+        <ImageView style="@style/layout.xy"
+            	   android:src="@drawable/ic_k_zika"/>
+        
+        <TextView style="@style/layout.Xy"
+            	  android:layout_weight="1"
+            	  android:layout_marginLeft="10dp"
+            	  android:textColor="#0671b4"
+            	  android:textSize="17sp"
+            	  android:text="子卡信息"/>
+        
+        <Button android:id="@+id/btnZhiKaRead"
+            	style="@style/layout.xy"
+            	android:layout_marginLeft="5dp"
+            	android:textColor="#ffffff"
+            	android:background="@drawable/sel_btn_orange"
+            	android:text="读卡" />
+        
+        <Button style="@style/layout.xy"
+            	android:layout_marginLeft="5dp"
+            	android:textColor="#ffffff"
+            	android:background="@drawable/sel_btn_gray"
+            	android:text="绑定" />
+        
+    </LinearLayout>
+    
+    <LinearLayout style="@style/layout.Xy"
+        		  android:background="@drawable/sel_perference_white_top"
+        		  android:gravity="center_vertical"
+        		  android:orientation="horizontal"
+        		  android:paddingLeft="10dp"
+        		  android:paddingRight="10dp"
+        		  >
+        
+        <TextView style="@style/layout.xy"
+            	  android:textSize="15sp"
+            	  android:textColor="#000000"
+            	  android:text="油卡号：" />
+        
+        <EditText style="@style/layout.XY"
+            	  android:gravity="center_vertical"
+            	  android:layout_marginLeft="10dp"
+            	  android:textColor="#000000"
+            	  android:background="@null"
+            	  android:text="" />
+        
+        
+    </LinearLayout>
+    
+     <LinearLayout style="@style/layout.Xy"
+        		  android:background="@drawable/sel_perference_white_middle"
+        		  android:gravity="center_vertical"
+        		  android:orientation="horizontal"
+        		  android:paddingLeft="10dp"
+        		  android:paddingRight="10dp"
+        		  >
+        
+        <TextView style="@style/layout.xy"
+            	  android:textSize="15sp"
+            	  android:textColor="#000000"
+            	  android:text="序列号：" />
+        
+        <EditText style="@style/layout.XY"
+            	  android:gravity="center_vertical"
+            	  android:layout_marginLeft="10dp"
+            	  android:textColor="#000000"
+            	  android:background="@null"
+            	   />
+        
+        
+    </LinearLayout>
+    
+      <LinearLayout style="@style/layout.Xy"
+        		  android:background="@drawable/sel_perference_white_middle"
+        		  android:gravity="center_vertical"
+        		  android:orientation="horizontal"
+        		  android:paddingLeft="10dp"
+        		  android:paddingRight="10dp"
+        		  >
+        
+        <TextView style="@style/layout.xy"
+            	  android:textSize="15sp"
+            	  android:textColor="#000000"
+            	  android:text="客户姓名：" />
+        
+        <EditText style="@style/layout.XY"
+            	  android:gravity="center_vertical"
+            	  android:layout_marginLeft="10dp"
+            	  android:textColor="#000000"
+            	  android:background="@null"
+            	   />
+        
+        
+    </LinearLayout>
+    <LinearLayout style="@style/layout.Xy"
+        		  android:background="@drawable/sel_perference_white_middle"
+        		  android:gravity="center_vertical"
+        		  android:orientation="horizontal"
+        		  android:paddingLeft="10dp"
+        		  android:paddingRight="10dp"
+        		  >
+        
+        <TextView style="@style/layout.xy"
+            	  android:textSize="15sp"
+            	  android:textColor="#000000"
+            	  android:text="身份证号：" />
+        
+        <EditText style="@style/layout.XY"
+            	  android:gravity="center_vertical"
+            	  android:layout_marginLeft="10dp"
+            	  android:textColor="#000000"
+            	  android:background="@null"
+            	   />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout style="@style/layout.Xy"
+        		  android:background="@drawable/sel_perference_white_bottom"
+        		  android:gravity="center_vertical"
+        		  android:orientation="horizontal"
+        		  android:paddingLeft="10dp"
+        		  android:paddingRight="10dp"
+        		  >
+        
+        <TextView style="@style/layout.xy"
+            	  android:textSize="15sp"
+            	  android:textColor="#000000"
+            	  android:text="车牌号：" />
+        
+        <EditText style="@style/layout.XY"
+            	  android:gravity="center_vertical"
+            	  android:layout_marginLeft="10dp"
+            	  android:textColor="#000000"
+            	  android:background="@null"
+            	   />
+        
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
+    
+</ScrollView>
+

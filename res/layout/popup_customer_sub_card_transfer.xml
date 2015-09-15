@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/popupWrapper" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout.XY"
+    android:background="@drawable/transparent" >
+
+    <LinearLayout android:id="@+id/popupContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView android:id="@+id/tvPopupTitle"
+            style="@style/layout.Xy"
+            android:background="@drawable/sel_perference_black_top"
+            android:drawableLeft="@drawable/ic_zhuanru"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:text="子卡转入信息"
+            android:textColor="#7bcafc"
+            android:drawablePadding="5dp"
+            android:textSize="15sp" />
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:gravity="center_vertical"
+            		  android:background="@drawable/sel_perference_black_middle"
+            		  android:orientation="horizontal"
+            		  android:paddingLeft="10dp"
+            		  android:paddingRight="10dp"
+            		  >
+            
+            <TextView style="@style/layout.xy"
+                	  android:text="子卡号："
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"/>
+            
+            <EditText android:id="@+id/tvCardId"
+                	  style="@style/layout.XY"
+                	  android:layout_marginLeft="10dp"
+                	  android:gravity="center_vertical"
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"
+                	  android:singleLine="true"
+                	  android:imeOptions="actionNext"
+                	  android:background="@drawable/transparent"
+                		 />
+            
+        </LinearLayout>
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:gravity="center_vertical"
+            		  android:background="@drawable/sel_perference_black_middle"
+            		  android:orientation="horizontal"
+            		  android:paddingLeft="10dp"
+            		  android:paddingRight="10dp"
+            		  >
+            
+            <TextView style="@style/layout.xy"
+                	  android:text="卡主姓名："
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"/>
+            
+            <EditText android:id="@+id/tvUserName"
+                	  style="@style/layout.XY"
+                	  android:layout_marginLeft="10dp"
+                	  android:gravity="center_vertical"
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"
+                	  android:singleLine="true"
+                	  android:imeOptions="actionNext"
+                	  android:background="@drawable/transparent"
+                		 />
+            
+        </LinearLayout>
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:gravity="center_vertical"
+            		  android:background="@drawable/sel_perference_black_middle"
+            		  android:orientation="horizontal"
+            		  android:paddingLeft="10dp"
+            		  android:paddingRight="10dp"
+            		  >
+            
+            <TextView style="@style/layout.xy"
+                	  android:text="车牌号："
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"/>
+            
+            <EditText android:id="@+id/tvCarId"
+                	  style="@style/layout.XY"
+                	  android:layout_marginLeft="10dp"
+                	  android:gravity="center_vertical"
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"
+                	  android:singleLine="true"
+                	  android:imeOptions="actionNext"
+                	  android:background="@drawable/transparent"
+                		 />
+            
+        </LinearLayout>
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:gravity="center_vertical"
+            		  android:background="@drawable/sel_perference_black_middle"
+            		  android:orientation="horizontal"
+            		  android:paddingLeft="10dp"
+            		  android:paddingRight="10dp"
+            		  >
+            
+            <TextView style="@style/layout.xy"
+                	  android:text="剩余资金："
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"/>
+            
+            <EditText android:id="@+id/tvMoney"
+                	  style="@style/layout.XY"
+                	  android:layout_marginLeft="10dp"
+                	  android:gravity="center_vertical"
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"
+                	  android:singleLine="true"
+                	  android:imeOptions="actionNext"
+                	  android:background="@drawable/transparent"
+                		 />
+            
+        </LinearLayout>
+        
+        <LinearLayout style="@style/layout.Xy"
+            		  android:gravity="center_vertical"
+            		  android:background="@drawable/sel_perference_black_middle"
+            		  android:orientation="horizontal"
+            		  android:paddingLeft="10dp"
+            		  android:paddingRight="10dp"
+            		  >
+            
+            <TextView android:id="@+id/tvTransferLabel"
+                	  style="@style/layout.xy"
+                	  android:text="转入金额："
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"/>
+            
+            <EditText android:id="@+id/tvTransferMoney"
+                	  style="@style/layout.XY"
+                	  android:layout_marginLeft="10dp"
+                	  android:gravity="center_vertical"
+                	  android:textColor="#ffffff" 
+                	  android:textSize="15sp"
+                	  android:singleLine="true"
+                	  android:imeOptions="actionNext"
+                	  android:background="@drawable/transparent"
+                		 />
+            
+        </LinearLayout>
+        
+        
+        <Button 	android:id="@+id/btnTransfer"
+            		style="@style/layout.Xy"
+                	android:background="@drawable/sel_perference_black_bottom"
+                	android:textColor="#fb7855"
+                	android:textSize="15sp"
+                	android:gravity="center"
+                	android:text="确认转入"
+                	  />
+
+    </LinearLayout>
+
+</FrameLayout>

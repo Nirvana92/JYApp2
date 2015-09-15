@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bj"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/layout.Xy"
+        android:background="@drawable/ic_top"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            style="@style/layout.xy"
+            android:layout_marginRight="4dp"
+            android:src="@drawable/ic_x_taitou" />
+    </LinearLayout>
+
+    <ScrollView style="@style/layout.XY" >
+
+        <LinearLayout
+            style="@style/layout.XY"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/layout.Xy"
+                android:orientation="vertical" >
+
+                <ImageView
+                    style="@style/layout.xy"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/ic_touxiang" />
+
+                <TextView
+                    style="@style/layout.xy"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp"
+                    android:text="上午好，沈佳珍!"
+                    android:textColor="#f82d45"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    style="@style/layout.Xy"
+                    android:orientation="horizontal"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:paddingTop="2dp" >
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:text="卡号：             759 9912 0419 2987"
+                        android:textColor="#035689"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout.Xy"
+                    android:orientation="horizontal"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:paddingTop="2dp" >
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:text="账户余额：     ¥1000.00"
+                        android:textColor="#035689"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout.Xy"
+                    android:orientation="horizontal"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:paddingTop="2dp" >
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:text="剩余油量：     90# 100L / 93# 100L / 97# 100L / 98# 200L"
+                        android:textColor="#035689"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                style="@style/layout.Xy"
+                android:background="@drawable/ic_x_shishiyoujia"
+                android:gravity="center"
+                android:text="--当地实时油价--"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                style="@style/layout.XY"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    style="@style/layout.Xy"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="93#"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="¥7.80"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="2013-12-20"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout.Xy"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="94#"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="¥7.90"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="2013-12-21"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout.Xy"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="93#"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="¥7.80"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="2013-12-20"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout.Xy"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="95#"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="¥9.80"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="2013-12-20"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout.Xy"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="93#"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="¥7.80"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="2013-12-20"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout.Xy"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="93#"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="¥7.80"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="2013-12-20"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout.Xy"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="93#"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="¥7.80"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        style="@style/layout.xy"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="2013-12-20"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                style="@style/layout.Xy"
+                android:background="#ffffff"
+                android:padding="10dp" >
+
+                <TextView
+                    style="@style/layout.xy"
+                    android:layout_gravity="left|center_vertical"
+                    android:text="广东省深圳市福田区"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <ImageButton
+                    style="@style/layout.xy"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@null"
+                    android:src="@drawable/sel_btn_refresh" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
